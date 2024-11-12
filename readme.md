@@ -1,6 +1,3 @@
-Here's a comprehensive user guide and documentation for your project, including setup instructions, usage guides, and features.
-
----
 
 # **Content Engine: PDF Comparison and Insights**
 
@@ -141,32 +138,4 @@ Upon starting the application, you will see the main interface:
 
 ---
 
-## Troubleshooting
-
-### 1. **Out of Memory Errors**
-   - If you encounter CUDA memory errors, try limiting the number of tokens generated or using the model on the CPU.
-   - To switch to CPU, set `device = "cpu"` in the code.
-
-### 2. **Static or Repetitive Responses**
-   - If you observe repetitive answers or lack of contextual relevance, verify that:
-     - PDF documents have been successfully loaded and indexed.
-     - The query is formulated clearly with context-specific language.
-     - The vector store is retrieving relevant documents based on the query.
-
-### 3. **Slow Response Times**
-   - GPU usage is recommended for faster responses.
-   - Simplifying queries or reducing the number of PDFs may also help with speed.
-
----
-
-## FAQ
-
-### 1. **Do I need to re-upload PDFs for each query?**
-   - No, PDFs are stored persistently in the `./pdfs/` directory. Once uploaded, you can query them until they are manually removed.
-
-### 2. **How do I add more documents?**
-   - Use the file uploader in the interface to add more PDFs. They will be processed and indexed automatically.
-
-### 3. **Can I customize the number of documents retrieved for each query?**
-   - Yes, in the code, adjust the `top_k` parameter in `vector_store.as_retriever(search_type="similarity", top_k=3)` to retrieve more or fewer documents.
 
