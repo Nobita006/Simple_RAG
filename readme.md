@@ -12,6 +12,13 @@ The application has a simple, interactive **Streamlit** user interface that enab
 
 ---
 
+## Screenshots
+
+![Screenshot_12-11-2024_114834_localhost](https://github.com/user-attachments/assets/934fbab0-0e14-4e3a-a743-7ecba8fc8b67)
+
+
+![Screenshot_12-11-2024_114729_localhost](https://github.com/user-attachments/assets/f10d2dbc-000b-49a5-95e1-003b3a82118d)
+
 ## Features
 
 ### 1. **Query Input**
