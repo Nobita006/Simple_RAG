@@ -56,8 +56,8 @@ The application has a simple, interactive **Streamlit** user interface that enab
 ### Installation Steps
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Nobita006/Alemeno_LLM_Assignment.git
+   cd Alemeno_LLM_Assignment
    ```
 
 2. **Install Dependencies**:
