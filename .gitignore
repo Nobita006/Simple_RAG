@@ -1,0 +1,4 @@
+# Ignore environment and model folders
+env/
+distilgpt2/
+vector_store/
