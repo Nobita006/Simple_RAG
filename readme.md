@@ -136,7 +136,7 @@ Upon starting the application, you will see the main interface:
    - This limits the content scope, improving the relevance and quality of generated responses.
 
 ### 4. **Language Model Setup**
-   - The **DistilGPT-2** model is loaded and configured to run on GPU if available.
+   - The **GPT** model is loaded and configured to run on GPU if available.
    - A custom LangChain-compatible wrapper (`TransformersLLMWrapper`) was created to integrate DistilGPT-2 with LangChain.
 
 ### 5. **Query and Response Generation**
