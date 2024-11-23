@@ -3,7 +3,7 @@
 
 ## Overview
 
-This application allows users to upload PDF documents, store their content, and ask questions based on these documents. The application utilizes **LangChain** for handling question-answering tasks and **DistilGPT-2** or **GPT-Neo 2.7B** as a language model to generate responses. It's designed to extract relevant information from PDFs and answer user queries based on the uploaded documents.
+This application allows users to upload PDF documents, store their content, and ask questions based on these documents. The application utilizes **LangChain** for handling question-answering tasks and **DistilGPT-2** or **GPT-Neo 2.7B** as a language model to generate responses (because of resource limitation). It's designed to extract relevant information from PDFs and answer user queries based on the uploaded documents.
 
 The application has a simple, interactive **Streamlit** user interface that enables users to:
 - Enter queries about the content in uploaded PDFs.
